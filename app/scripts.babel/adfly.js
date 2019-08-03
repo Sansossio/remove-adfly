@@ -1,3 +1,4 @@
+// Source: https://www.codewars.com/kata/adfly-encoder-and-decoder
 const decodeAdfly = (ysmm) => {
   let response = ysmm;
   let I = '';
