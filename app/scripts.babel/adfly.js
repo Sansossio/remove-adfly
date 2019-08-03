@@ -14,9 +14,9 @@ const decodeAdfly = (ysmm) => {
   const U = response.split('');
   for (let i = 0; i < U.length; i++) {
     if (!isNaN(U[i])) {
-      for (var j = i + 1; j < U.length; j++) {
+      for (let j = i + 1; j < U.length; j++) {
         if (!isNaN(U[j])) {
-          var S = U[i] ^ U[j];
+          const S = U[i] ^ U[j];
           if (S < 10) {
             U[i] = S;
           }
