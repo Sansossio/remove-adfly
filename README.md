@@ -2,4 +2,4 @@
 Skip adfly urls
 
 ## How to use?
-Install on chrome and finish!
+Do not use.
